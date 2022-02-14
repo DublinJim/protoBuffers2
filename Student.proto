@@ -1,0 +1,12 @@
+syntax="proto3";
+
+
+
+package protoBuffers;
+
+message Student{
+
+  string firstName=1;
+  string lastName=2;
+  int32 IDnum=3;
+}
